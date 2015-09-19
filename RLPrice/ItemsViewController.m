@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Mikola Dyachok. All rights reserved.
 //
 
+//
 #import "ItemsViewController.h"
 #import "UIImageView+WebCache.h"
 
