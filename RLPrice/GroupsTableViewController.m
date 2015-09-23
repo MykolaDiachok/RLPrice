@@ -156,7 +156,7 @@
     float h = size.height;
     float reload_distance = 15;
     if(y > h + reload_distance) {
-        NSLog(@"load more rows");
+//        NSLog(@"load more rows");
         [self loadNextPageInTable];
     }
 }
@@ -164,25 +164,10 @@
 -(void) loadNextPageInTable {
     
     [self loadNextPage];
-    NSLog(@"NEW PAGE LOADED");
+//    NSLog(@"NEW PAGE LOADED");
 }
 
-//-(void) searchBarSearchButtonClicked:(UISearchBar *)searchBar{
-//     [self loadObjects];
-//}
-//
-//-(void)searchBarCancelButtonClicked:(UISearchBar *)searchBar{
-//	[self loadObjects];
-//	 [searchBar resignFirstResponder];
-//}
-//
-//- (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar{
-//    [self loadObjects];
-//}
 
-//-(void)searchBar:(UISearchBar*)searchBar textDidChange:(NSString*)text{
-//	[self loadObjects];
-//}
 
 
 - (void)updateSearchResultsForSearchController:(UISearchController *)searchController{

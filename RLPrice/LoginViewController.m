@@ -42,6 +42,7 @@
                                                 NSLog(@"%@",@"User Enable");
                                                 [currentUser incrementKey:@"RunCount"];
                                                 [currentUser saveInBackground];
+												[PFACL setDefaultACL:[PFACL ACL] withAccessForCurrentUser:YES];
                                                 NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
                                                 [userDefaults setValue:_txtPassword.text forKey:@"password"];
                                                 [userDefaults setValue:_txtLogin.text forKey:@"login"];

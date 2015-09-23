@@ -23,19 +23,17 @@
         
         // The className to query on
         self.parseClassName = @"ExchangeRates";
-        self.
-        
+//        self.
+		
         // The key of the PFObject to display in the label of the default cell style
 //        self.textKey = @"nombrePanaderia";
         
         // Whether the built-in pull-to-refresh is enabled
         self.pullToRefreshEnabled = YES;
-        
+		
         // Whether the built-in pagination is enabled
         self.paginationEnabled = NO;
-        
-        // The number of objects to show per page
-//        self.objectsPerPage = 3;
+
     }
     return self;
 }

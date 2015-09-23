@@ -12,4 +12,7 @@
 @interface ItemsViewController : PFQueryTableViewController<UISearchBarDelegate>
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender;
 @property (nonatomic) PFObject *curGroup;
+@property (nonatomic) PFRelation *pfrelationItems;
+@property (nonatomic) NSString *titleInfo;
+
 @end

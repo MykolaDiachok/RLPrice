@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		692166731BB13EC900921AAE /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692166721BB13EC900921AAE /* NewsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		693CCBD91BA41422003F6947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 693CCBD81BA41422003F6947 /* main.m */; };
 		693CCBDC1BA41422003F6947 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 693CCBDB1BA41422003F6947 /* AppDelegate.m */; };
 		693CCBE51BA41422003F6947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693CCBE31BA41422003F6947 /* Main.storyboard */; };
@@ -29,6 +30,8 @@
 		693CCC2D1BA4540B003F6947 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693CCC2C1BA4540B003F6947 /* TabBarViewController.m */; };
 		693CCC361BA47263003F6947 /* ExchangeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693CCC351BA47263003F6947 /* ExchangeTableViewController.m */; };
 		693CCC391BA4C333003F6947 /* GroupsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693CCC381BA4C333003F6947 /* GroupsTableViewController.m */; };
+		699C362E1BB014630049A1C6 /* BasketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699C362D1BB014630049A1C6 /* BasketViewController.m */; settings = {ASSET_TAGS = (); }; };
+		699C36321BB054B60049A1C6 /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699C36311BB054B60049A1C6 /* ItemViewController.m */; settings = {ASSET_TAGS = (); }; };
 		69A5CFBC1BA613440060669C /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A5CFBB1BA613440060669C /* ItemsViewController.m */; };
 		69A5CFE21BA6C1040060669C /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A5CFC21BA6C1040060669C /* MKAnnotationView+WebCache.m */; };
 		69A5CFE31BA6C1040060669C /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A5CFC41BA6C1040060669C /* NSData+ImageContentType.m */; };
@@ -66,6 +69,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		692166711BB13EC900921AAE /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
+		692166721BB13EC900921AAE /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
 		693CCBD31BA41422003F6947 /* RLPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RLPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		693CCBD71BA41422003F6947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		693CCBD81BA41422003F6947 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -98,6 +103,10 @@
 		693CCC351BA47263003F6947 /* ExchangeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeTableViewController.m; sourceTree = "<group>"; };
 		693CCC371BA4C333003F6947 /* GroupsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupsTableViewController.h; sourceTree = "<group>"; };
 		693CCC381BA4C333003F6947 /* GroupsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupsTableViewController.m; sourceTree = "<group>"; };
+		699C362C1BB014630049A1C6 /* BasketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasketViewController.h; sourceTree = "<group>"; };
+		699C362D1BB014630049A1C6 /* BasketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasketViewController.m; sourceTree = "<group>"; };
+		699C36301BB054B60049A1C6 /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
+		699C36311BB054B60049A1C6 /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewController.m; sourceTree = "<group>"; };
 		69A5CFBA1BA613440060669C /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
 		69A5CFBB1BA613440060669C /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
 		69A5CFC11BA6C1040060669C /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
@@ -179,6 +188,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		692166701BB123DE00921AAE /* News */ = {
+			isa = PBXGroup;
+			children = (
+				692166711BB13EC900921AAE /* NewsTableViewController.h */,
+				692166721BB13EC900921AAE /* NewsTableViewController.m */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		692166741BB1589A00921AAE /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				693CCC351BA47263003F6947 /* ExchangeTableViewController.m */,
+				693CCC341BA47263003F6947 /* ExchangeTableViewController.h */,
+			);
+			name = Exchange;
+			sourceTree = "<group>";
+		};
+		692166751BB158B000921AAE /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				693CCC371BA4C333003F6947 /* GroupsTableViewController.h */,
+				693CCC381BA4C333003F6947 /* GroupsTableViewController.m */,
+			);
+			name = Groups;
+			sourceTree = "<group>";
+		};
 		693CCBCA1BA41422003F6947 = {
 			isa = PBXGroup;
 			children = (
@@ -202,15 +238,16 @@
 		693CCBD51BA41422003F6947 /* RLPrice */ = {
 			isa = PBXGroup;
 			children = (
+				692166751BB158B000921AAE /* Groups */,
+				692166741BB1589A00921AAE /* Exchange */,
+				692166701BB123DE00921AAE /* News */,
+				699C362F1BB0548B0049A1C6 /* Item */,
+				699C362B1BB014080049A1C6 /* Basket */,
 				693CCBDA1BA41422003F6947 /* AppDelegate.h */,
 				693CCBDB1BA41422003F6947 /* AppDelegate.m */,
 				693CCBE31BA41422003F6947 /* Main.storyboard */,
 				69A5CFBA1BA613440060669C /* ItemsViewController.h */,
 				69A5CFBB1BA613440060669C /* ItemsViewController.m */,
-				693CCC341BA47263003F6947 /* ExchangeTableViewController.h */,
-				693CCC371BA4C333003F6947 /* GroupsTableViewController.h */,
-				693CCC381BA4C333003F6947 /* GroupsTableViewController.m */,
-				693CCC351BA47263003F6947 /* ExchangeTableViewController.m */,
 				693CCC2B1BA4540B003F6947 /* TabBarViewController.h */,
 				693CCC2C1BA4540B003F6947 /* TabBarViewController.m */,
 				693CCC281BA42EE9003F6947 /* LoginViewController.h */,
@@ -274,6 +311,24 @@
 				693CCC0E1BA41665003F6947 /* Accounts.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		699C362B1BB014080049A1C6 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				699C362C1BB014630049A1C6 /* BasketViewController.h */,
+				699C362D1BB014630049A1C6 /* BasketViewController.m */,
+			);
+			name = Basket;
+			sourceTree = "<group>";
+		};
+		699C362F1BB0548B0049A1C6 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				699C36301BB054B60049A1C6 /* ItemViewController.h */,
+				699C36311BB054B60049A1C6 /* ItemViewController.m */,
+			);
+			name = Item;
 			sourceTree = "<group>";
 		};
 		69A5CFC01BA6C1040060669C /* SDWebImage */ = {
@@ -425,14 +480,17 @@
 				69A5CFEE1BA6C1040060669C /* UIImage+WebP.m in Sources */,
 				69A5CFEF1BA6C1040060669C /* UIImageView+HighlightedWebCache.m in Sources */,
 				69A5CFBC1BA613440060669C /* ItemsViewController.m in Sources */,
+				692166731BB13EC900921AAE /* NewsTableViewController.m in Sources */,
 				693CCC361BA47263003F6947 /* ExchangeTableViewController.m in Sources */,
 				69A5CFEB1BA6C1040060669C /* UIButton+WebCache.m in Sources */,
+				699C362E1BB014630049A1C6 /* BasketViewController.m in Sources */,
 				69A5CFEA1BA6C1040060669C /* SDWebImagePrefetcher.m in Sources */,
 				69A5CFE81BA6C1040060669C /* SDWebImageDownloaderOperation.m in Sources */,
 				693CCBDC1BA41422003F6947 /* AppDelegate.m in Sources */,
 				693CCBD91BA41422003F6947 /* main.m in Sources */,
 				69A5CFED1BA6C1040060669C /* UIImage+MultiFormat.m in Sources */,
 				693CCC2D1BA4540B003F6947 /* TabBarViewController.m in Sources */,
+				699C36321BB054B60049A1C6 /* ItemViewController.m in Sources */,
 				69A5CFE41BA6C1040060669C /* SDImageCache.m in Sources */,
 				693CCC391BA4C333003F6947 /* GroupsTableViewController.m in Sources */,
 				693CCC2A1BA42EE9003F6947 /* LoginViewController.m in Sources */,
